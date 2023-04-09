@@ -14,6 +14,5 @@ Steps to run the debugger
 1) node --inspect-brk index.js
 2) Go to chrome and open chrome://inspect/#devices
 3) click on the target of the form - index.js
-file:///Users/ppanjwan/Desktop/work/kalvium-node/kalvium-file-manager/index.js
 4) click on inspect and it will take you to the script and you can add the debugger
   and step through the code
