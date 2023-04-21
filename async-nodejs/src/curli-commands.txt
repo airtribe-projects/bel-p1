@@ -1,0 +1,14 @@
+1) Get air quality for mumbai - callback
+curl http://localhost:3000/airQuality/mumbai/callback
+
+2) Get air quality for mumbai - promise
+curl http://localhost:3000/airQuality/mumbai/promise
+
+3) Get air quality of mumbai - async await
+curl http://localhost:3000/airQuality/mumbai/asyncAwait
+
+4) callback hell - get air quality
+curl 'http://localhost:3000/airQuality/callbackHell
+
+6) async await - get air quality
+curl 'http://localhost:3000/airQuality/asyncAwait
