@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.006" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-04-28T05:55:32" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Testing the validator" timestamp="2023-04-28T05:55:32" tests="1" file="/Users/ppanjwan/Desktop/work/airtribe-projects/airtribe-launchpad-rating-authentication-authorization/test/helpers/validator.test.js" time="0.004" failures="1">
+    <testcase name="Testing the validator 1. Validating the course info" time="0.001" classname="1. Validating the course info">
+      <failure message="Cannot read property &apos;some&apos; of undefined" type="TypeError"><![CDATA[TypeError: Cannot read property 'some' of undefined
+    at Function.validateUniqueCourseId (src/helpers/validator.js:29:41)
+    at Function.validateCourseInfo (src/helpers/validator.js:10:58)
+    at Context.<anonymous> (test/helpers/validator.test.js:17:30)
+    at processImmediate (internal/timers.js:461:21)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
